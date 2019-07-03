@@ -50,7 +50,7 @@
 			digitalWrite(10, LOW); //Ground for LED 3 gets set low
 ### 8. Turn LEDs on after delay
 		New code lines:
-		    digitalWrite(5, HIGH); //LED 1
+		    	digitalWrite(5, HIGH); //LED 1
 			digitalWrite(8, HIGH); //LED 2
 			digitalWrite(11, HIGH);  //LED 3
 		(Upload and watch LED)
