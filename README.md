@@ -8,7 +8,7 @@
 - Set the programmer as "AVRISP mkll"
 - Set the port to whatever shows up
 ### 1. Attach serial monitor
--- Go to Tools->Serial Monitor->9600 baud
+- Go to Tools->Serial Monitor->9600 baud
 - New code lines:
 	- `Serial.begin(9600);`
 	- `Serial.println("hi");`
@@ -64,11 +64,9 @@
 ### 11. Debug LEDs not turning off issue (no else statement)
 - LEDs turn on after 5 counts, but don't turn off even though counter resets
 - New code lines:
-	- else{
-		- `digitalWrite(5, LOW); //LED 1`
-		- `digitalWrite(8, LOW); //LED 2`
-		- `digitalWrite(11, LOW);  //LED 3`
-	- }
+	- `else{digitalWrite(5, LOW); //LED 1`
+	- `digitalWrite(8, LOW); //LED 2`
+	- `digitalWrite(11, LOW);  //LED 3}`
 	- (Upload and watch LED and Serial monitor, try pressing button after it lights up)
 ### 12. Change time for your needs
 - Modified code line:
