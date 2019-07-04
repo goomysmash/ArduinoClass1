@@ -75,6 +75,6 @@
 			if (counter > 10)
 		(Upload and watch LED and Serial monitor, try pressing button after it lights up)
 ## Problems:
-Is inconsistent in resetting the timer
-Needs to reset after the delay has finished
-To be fixed using the millis() function in a future class
+- Is inconsistent in resetting the timer
+- Needs to reset after the delay has finished
+- To be fixed using the millis() function in a future class
