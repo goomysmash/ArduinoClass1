@@ -52,6 +52,6 @@ void loop()
 
   if (digitalRead(3) == LOW) //if the arduino reads pin 3 as LOW/0v/ground, then do what's in the brackets
   {
-    counter = 0; //reset the timer variable back to 0.
+    counter = 0; //reset the counter variable back to 0.
   }
 }
